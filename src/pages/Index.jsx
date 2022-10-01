@@ -16,7 +16,7 @@ function Index() {
               title="Conversor de tasas de interes"
               description = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quam "
               created_by= "Santiago Tamayo - AndresFerro"
-              goto_link = "/tax"
+              goto_link = "/front/tax"
         />
         <Card img_link="https://cdn.pixabay.com/photo/2020/12/11/21/14/naruto-5823848_960_720.png" 
               title="Optimizador de portafolios de inversion"
