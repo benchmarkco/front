@@ -4,6 +4,8 @@ import Card from '../components/Card'
 import CardContainer from '../components/CardContainer'
 import Footer from '../components/Footer'
 
+import ImageTax from '../assets/img/tax.png'
+
 function Index() {
   return (
     <>
@@ -12,9 +14,9 @@ function Index() {
                large_text = { "Somos un grupo de DataNerds, democratizando el conocimiento en Finanzas, Actuaria y temas relacionados a Ciencia de Datos con el uso de tecnologia Cloud"}
                 />
     <CardContainer>
-        <Card img_link="https://cdn.pixabay.com/photo/2020/12/11/21/14/naruto-5823848_960_720.png" 
+        <Card img_link= { ImageTax } 
               title="Conversor de tasas de interes"
-              description = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quam "
+              description = "En simples palabras, es el precio por el uso del dinero.     "
               created_by= "Santiago Tamayo - AndresFerro"
               goto_link = "/front/tax"
         />
