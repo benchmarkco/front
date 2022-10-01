@@ -11,10 +11,10 @@ const Conversor = () => {
                             <label htmlFor="firstName" className="form-label fw-bolder">Tipo de interes</label>
                             <select id="tipo" className="form-select" aria-label="Default select example">
                             <option selected>Selecciona una opcion</option>
-                            <option value={1} className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL</option>
-                            <option value={2} className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES NOMINAL ANTICIPADO A EFECTIVO ANUAL</option>
-                            <option value={3} className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES EFECTIVO ANUAL A NOMINAL VENCIDO</option>
-                            <option value={4} className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES EFECTIVO ANUAL A NOMINAL ANTICIPADO</option>
+                            <option className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL</option>
+                            <option className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES NOMINAL ANTICIPADO A EFECTIVO ANUAL</option>
+                            <option className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES EFECTIVO ANUAL A NOMINAL VENCIDO</option>
+                            <option className="CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL">CONVERSION DE INTERES EFECTIVO ANUAL A NOMINAL ANTICIPADO</option>
                             </select>
                         </div>
 
