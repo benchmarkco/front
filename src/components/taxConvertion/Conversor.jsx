@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form'
 import { helperConversor } from './helper';
 
 const Conversor = () => {
-    const { register, handleSubmit } = useForm();
+    const { register, handleSubmit } = useForm({});
     const [tax, setTax] = useState(0);
     
     const onSubmit = data => {
@@ -12,7 +12,7 @@ const Conversor = () => {
         const result_data = helperConversor(parseInt(data.tipo), 
                                             parseFloat(data.interes),  
                                             parseFloat(data.periodo))
-        setTax((result_data.resultado * 100 ).toFixed(2))
+        setTax(result_data)
     }
    
 
@@ -39,13 +39,13 @@ const Conversor = () => {
                 </div>
 
                 <div className="col-sm-12 mt-3">
-                    <input {...register("interes")} type="text" className="form-control" id="interes" placeholder="Tasa de interés" required />
+                    <input {...register("interes")} type="number" className="form-control" id="interes" placeholder="Tasa de interés" required />
                 </div>
 
                 <button className="w-100 mt-3 btn btn-success btn-lg" type="submit" >Calcular</button>
             </form>
 
-            <input className="form-control mt-3 text-center" placeholder= { `${tax} %` } disabled />
+            <input className="form-control mt-3 text-center" placeholder= { `${tax.resultado === undefined ? 0 : (tax.resultado * 100).toFixed(2)  }% ${tax.incial} ` } disabled />
                 
             </div>
         </div>

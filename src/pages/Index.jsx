@@ -5,6 +5,8 @@ import CardContainer from '../components/CardContainer'
 import Footer from '../components/Footer'
 
 import ImageTax from '../assets/img/tax.png'
+import ImagePortfolio from '../assets/img/portfolio.png'
+import ImageMonteCarlo from '../assets/img/montecarlo.png'
 
 function Index() {
   return (
@@ -20,16 +22,16 @@ function Index() {
               created_by= "Santiago Tamayo - AndresFerro"
               goto_link = "/front/tax"
         />
-        <Card img_link="https://cdn.pixabay.com/photo/2020/12/11/21/14/naruto-5823848_960_720.png" 
+        <Card img_link= { ImagePortfolio }
               title="Optimizador de portafolios de inversion"
-              description = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quam "
+              description = "Todos tenemos una inversión buena, pero, cada cuanto?"
               created_by= "AndresFerro"
               goto_link = "/tax"
         />
-        <Card img_link="https://cdn.pixabay.com/photo/2020/12/11/21/14/naruto-5823848_960_720.png" 
+        <Card img_link= {ImageMonteCarlo}
               title="Simulacion Montecarlo Tasas Cambio"
-              description = "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, quam "
-              created_by= "Sebas Paristian - AndresFerro"
+              description = "Y si no sabemos la direccion del dolar, podemos estimarlo"
+              created_by= "Sebastian Paris - Andres Ferro"
               goto_link = "/tax"
         />
     </CardContainer>

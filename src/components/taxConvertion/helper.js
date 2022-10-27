@@ -3,7 +3,7 @@ export const helperConversor =  (tipo, interes, periodo) => {
         return {
             'status': 200,
             'resultado': ((1 + (interes/periodo)) ** periodo) - 1, 
-            'incial': 'CONVERSION DE INTERES NOMINAL VENCIDO A EFECTIVO ANUAL',
+            'incial': 'EFECTIVO ANUAL',
             'concepto': 'Interes efectivo anual'
             }
     }
@@ -12,7 +12,7 @@ export const helperConversor =  (tipo, interes, periodo) => {
         return {
             'status': 200,
             'resultado': (1 / ((1 - (interes/periodo)) ** periodo) - 1), 
-            'incial': 'CONVERSION DE INTERES NOMINAL ANTICIPADO A EFECTIVO ANUAL',
+            'incial': 'EFECTIVO ANUAL',
             'concepto': 'Interes efectivo anual'
             }
     }   
@@ -21,7 +21,7 @@ export const helperConversor =  (tipo, interes, periodo) => {
         return {
             'status': 200,
             'resultado': ((1+interes) ** (1/periodo) - 1) * periodo, 
-            'incial': 'CONVERSION DE INTERES EFECTIVO ANUAL A NOMINAL VENCIDO',
+            'incial': 'NOMINAL VENCIDO',
             'concepto': 'Interes nominal vencido'
             }
     }
@@ -30,7 +30,7 @@ export const helperConversor =  (tipo, interes, periodo) => {
         return {
             'status': 200,
             'resultado': (1-(1/(1+interes)) ** (1/periodo)) * periodo, 
-            'incial': 'CONVERSION DE INTERES EFECTIVO ANUAL A NOMINAL ANTICIPADO',
+            'incial': 'NOMINAL ANTICIPADO',
             'concepto': 'Interes nominal anticipado'
             }
     }

@@ -2,13 +2,12 @@ import { NavLink } from "react-router-dom";
 
 const Card = ({description, title,  img_link, created_by, goto_link }) => {
   return (
-    <div className="col">
+      <div className="col">
         <div className="card shadow-sm">
-
-            <img className="bd-placeholder-img card-img-top img-fluid img-thumbnail w-100 mx-auto" src={img_link} alt="Imgagen de la APP"/>
+            <img className="bd-placeholder-img card-img-top img-fluid rounded mx-auto" height="10%" width="50%" src={img_link} alt="Imgagen de la APP"/>
             <div className="card-body">
                 <p className="card-text fw-bold text-center">{title}</p>
-                <p className="text-muted"> 
+                <p className="text-muted text-center"> 
                     {description}
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
