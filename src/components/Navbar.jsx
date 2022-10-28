@@ -22,7 +22,7 @@ const Navbar = ({company_name}) => {
                     <li><a className="dropdown-item" href="#">Blog</a></li>
                     <li><a className="dropdown-item" href="#">Propuestas</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="#">Ingresar al grupo público </a></li>
+                    <li><a className="dropdown-item" href="https://t.me/+hF226VyWW8I5OTYx">Ingresar al canal de Telegram <i className="fa-brands fa-telegram mx-1"></i></a></li>
                   </ul>
                 </li>
                 <li className="nav-item">

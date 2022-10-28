@@ -30,7 +30,7 @@ function ModalButton({buttonColor, textButton, title, body}) {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="success" onClick={handleClose}>
-            Close
+            Cerrar
           </Button>
         </Modal.Footer>
       </Modal>

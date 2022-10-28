@@ -9,7 +9,7 @@ const Footer = () => {
             </div>
                 <p className="mb-1"> <span className='ml-2 fw-bold'> Animate a contribuir!!! </span> Hablemos de, cómo podemos mejorar </p>
                 <p className="mb-0">Eres nuevo? Revisa el codigo fuente de esta página   
-                    <a href="https://linktr.ee/benchmark_co"> <span className='ml-2 fw-bold'> Ver codigo</span> </a>
+                    <a href="https://github.com/benchmarkco"> <span className='ml-2 fw-bold'> Ver codigo</span></a>
                 </p>
             </div>
         </div>
