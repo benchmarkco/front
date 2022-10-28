@@ -26,13 +26,13 @@ function Index() {
               title="Optimizador de portafolios de inversion"
               description = "Todos tenemos una inversión buena, pero, cada cuanto?"
               created_by= "AndresFerro"
-              goto_link = "/tax"
+              goto_link = "/front/portfolio"
         />
         <Card img_link= {ImageMonteCarlo}
               title="Simulacion Montecarlo Tasas Cambio"
               description = "Y si no sabemos la direccion del dolar, podemos estimarlo"
               created_by= "Sebastian Paris - Andres Ferro"
-              goto_link = "/tax"
+              goto_link = "/front/montecarlo"
         />
     </CardContainer>
     <Footer/>

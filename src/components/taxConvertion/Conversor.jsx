@@ -10,7 +10,7 @@ const Conversor = () => {
     const onSubmit = data => {
 
         const result_data = helperConversor(parseInt(data.tipo), 
-                                            parseFloat(data.interes),  
+                                            parseFloat(data.interes.replace(",", ".")),  
                                             parseFloat(data.periodo))
         setTax(result_data)
     }
@@ -39,13 +39,13 @@ const Conversor = () => {
                 </div>
 
                 <div className="col-sm-12 mt-3">
-                    <input {...register("interes")} type="number" className="form-control" id="interes" placeholder="Tasa de interés" required />
+                    <input {...register("interes")} type="text" className="form-control" id="interes" placeholder="Tasa de interés" required />
                 </div>
 
                 <button className="w-100 mt-3 btn btn-success btn-lg" type="submit" >Calcular</button>
             </form>
 
-            <input className="form-control mt-3 text-center" placeholder= { `${tax.resultado === undefined ? 0 : (tax.resultado * 100).toFixed(2)  }% ${tax.incial} ` } disabled />
+            <input className="form-control mt-3 text-center" placeholder= { `${tax.resultado === undefined ? 0 : (tax.resultado * 100).toFixed(2)  } % ${tax.resultado === undefined ? "" : tax.incial  }` } disabled />
                 
             </div>
         </div>
