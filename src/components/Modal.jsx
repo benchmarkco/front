@@ -19,6 +19,7 @@ function ModalButton({buttonColor, textButton, title, body}) {
         onHide={handleClose}
         backdrop="static"
         keyboard={false}
+        centered
       >
         <Modal.Header closeButton>
           <Modal.Title>  <span className="fw-bold"> { title }  </span></Modal.Title>
