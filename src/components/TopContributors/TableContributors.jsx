@@ -10,7 +10,7 @@ const TableContributors = () => {
             </tr>
         </thead>
             <tbody>
-                <tr className="mt-5">
+                <tr className="">
                     <td><img  
                             className="img-thumbnail rounded-circle img-fluid" 
                             src="https://media-exp1.licdn.com/dms/image/C4D03AQHe2SopuFt7cA/profile-displayphoto-shrink_400_400/0/1526669296827?e=1672876800&v=beta&t=wN5bOvQjwkq3r_tA0acvXyggDT8v1yWjzCYNQhaCgwI" 

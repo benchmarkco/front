@@ -16,7 +16,7 @@ const Navbar = ({company_name}) => {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">                
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    About Us
+                    Sobre Nosotros
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a className="dropdown-item" href="#">Blog</a></li>
