@@ -16,13 +16,13 @@ const Navbar = ({company_name}) => {
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">                
                 <li className="nav-item dropdown">
                   <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Sobre nosotros
+                    About Us
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a className="dropdown-item" href="#">Blog</a></li>
-                    <li><a className="dropdown-item" href="#">Propuestas</a></li>
+                    <li><a className="dropdown-item" href="/front/contributors">Top Contributors</a></li>
                     <li><hr className="dropdown-divider" /></li>
-                    <li><a className="dropdown-item" href="https://t.me/+hF226VyWW8I5OTYx">Ingresar al canal de Telegram <i className="fa-brands fa-telegram mx-1"></i></a></li>
+                    <li><a className="dropdown-item" href="https://t.me/+hF226VyWW8I5OTYx">Join Telegram <i className="fa-brands fa-telegram mx-1"></i></a></li>
                   </ul>
                 </li>
                 <li className="nav-item">

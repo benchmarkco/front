@@ -18,15 +18,15 @@ const Jumbotron = ({company_name, large_text}) => {
               <p className="lead text-muted">{ large_text }</p>
               <p> 
               <ModalButton buttonColor={"success"}
-                       textButton="Siguenos" 
-                       title="Nuestras Plataformas"
+                       textButton="Follow" 
+                       title="Our Platforms"
                        body = { <BodySiguenos/> }
                     
               />
               <span className='mx-1'></span>
               <ModalButton buttonColor={"outline-success"}
-                       textButton="Contribuir" 
-                       title="¿Cómo contribuir?"
+                       textButton="Contribute" 
+                       title="How contribute?"
                        body = { <BodyContribuir/> }
 
               />
