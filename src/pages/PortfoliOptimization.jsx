@@ -1,7 +1,5 @@
 import Navbar from '../components/Navbar'
 import Jumbotron from '../components/Jumbotron'
-import Card from '../components/Card'
-import CardContainer from '../components/CardContainer'
 import Footer from '../components/Footer'
 import Portfolio from '../components/PortfolioOptimization/Portfolio'
 
