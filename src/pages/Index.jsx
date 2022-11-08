@@ -18,7 +18,7 @@ function Index() {
     <CardContainer>
         <Card img_link= { ImageTax } 
               title="Conversor de tasas de interes"
-              description = "En simples palabras, es el precio por el uso del dinero que el prestamista se compromete a pagar.     "
+              description = "En simples palabras, es el precio por el uso del dinero que el prestamista se compromete."
               created_by= "Santiago Tamayo - AndresFerro"
               goto_link = "/front/tax"
         />
