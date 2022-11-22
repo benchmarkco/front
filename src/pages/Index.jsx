@@ -11,7 +11,7 @@ import ImageMonteCarlo from '../assets/img/montecarlo.png'
 function Index() {
   return (
     <>
-    <Navbar company_name = { "Benchmark ®" }/>
+    <Navbar company_name = { "Villa ®" }/>
     <Jumbotron company_name = { "Benchmark ®" } 
                large_text = { "Somos un grupo de DataNerds, democratizando el conocimiento en Finanzas, Actuaria y temas relacionados a Ciencia de Datos con el uso de tecnologia Cloud"}
                 />
