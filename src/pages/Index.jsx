@@ -11,27 +11,27 @@ import ImageMonteCarlo from '../assets/img/montecarlo.png'
 function Index() {
   return (
     <>
-    <Navbar company_name = { "Villa ®" }/>
+    <Navbar company_name = { "Benchmark ®" }/>
     <Jumbotron company_name = { "Benchmark ®" } 
-               large_text = { "Somos un grupo de DataNerds, democratizando el conocimiento en Finanzas, Actuaria y temas relacionados a Ciencia de Datos con el uso de tecnologia Cloud"}
+               large_text = { 'Somos un grupo de personas "talentosas", democratizando el conocimiento en Finanzas, Actuaria y  Ciencia de Datos con el uso de tecnologia Cloud'}
                 />
     <CardContainer>
         <Card img_link= { ImageTax } 
-              title="Conversor de tasas de interes"
-              description = "En simples palabras, es el precio por el uso del dinero que el prestamista se compromete."
-              created_by= "Santiago Tamayo - AndresFerro"
+              title="BenchSolutions"
+              description = "Tenemos el hobby de crear aplicaciones que solucionan problemas cotidianos"
+              created_by= "Benchmark"
               goto_link = "/front/tax"
         />
         <Card img_link= { ImagePortfolio }
-              title="Optimizador de portafolios de inversion"
-              description = "Todos tenemos una inversión buena, pero, cada cuanto?"
-              created_by= "AndresFerro"
+              title="BenchLearning"
+              description = "¿Te interesa? Aqui te dejamos algunos recursos recomendados para que te capacites"
+              created_by= "Benchmark"
               goto_link = "/front/portfolio"
         />
         <Card img_link= {ImageMonteCarlo}
-              title="Simulacion Montecarlo Tasas Cambio"
-              description = "Y si no sabemos la direccion del dolar, podemos estimarlo"
-              created_by= "Sebastian Paris - Andres Ferro"
+              title="BenchEmpresarios"
+              description = "Conoce un poco más sobre el corazón de las empresas y esas historias que hay detras de ellas"
+              created_by= "Benchmark"
               goto_link = "/front/montecarlo"
         />
     </CardContainer>

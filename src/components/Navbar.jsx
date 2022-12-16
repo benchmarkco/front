@@ -19,14 +19,15 @@ const Navbar = ({company_name}) => {
                     Sobre Nosotros
                   </a>
                   <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a className="dropdown-item" href="#">Blog</a></li>
-                    
-                    <NavLink to="/front/contributors">
-      
-                    <li className="dropdown-item fw-ligth">Top Contributors</li>
+   
+                    <NavLink to="/front/contributors" 
+                             style={{ textDecoration: 'none' }}
+                             >
+                        <li className="dropdown-item fw-ligth">Nuestro Equipo</li>
                     </NavLink>
+
                     <li><hr className="dropdown-divider"/></li>
-                    <li><a className="dropdown-item" href="https://t.me/+hF226VyWW8I5OTYx">Join Telegram <i className="fa-brands fa-telegram mx-1"></i></a></li>
+                    <li><a className="dropdown-item" href="https://t.me/+hF226VyWW8I5OTYx">Suscríbete<i className="fa-brands fa-telegram mx-1"></i></a></li>
                   </ul>
                 </li>
                 <li className="nav-item">
