@@ -13,7 +13,7 @@ const TableContributors = () => {
         </thead>
             <tbody>
             <Contributor
-                redirect_to='/'
+                redirect_to='/front/profile'
                 img_link="https://media-exp1.licdn.com/dms/image/C4D03AQHe2SopuFt7cA/profile-displayphoto-shrink_400_400/0/1526669296827?e=1672876800&v=beta&t=wN5bOvQjwkq3r_tA0acvXyggDT8v1yWjzCYNQhaCgwI" 
                 name="Andres Ferro"
                 linkedin_link= "https://linkedin.com/andresferro6"

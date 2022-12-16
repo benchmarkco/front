@@ -5,6 +5,8 @@ import TaxConvertion from "./TaxConvertion"
 import MontecarloTasaCambio from "./MontecarloTasaCambio"
 import PortfoliOptimization from "./PortfoliOptimization"
 import TopContributors from "./TopContributors"
+import Profile from "./Profile";
+
 
 const App = () => {
   return (
@@ -17,6 +19,7 @@ const App = () => {
         <Route path="/front/portfolio" element={<PortfoliOptimization />}></Route>
         <Route path="/front/montecarlo" element={<MontecarloTasaCambio />}></Route>
         <Route path="/front/propuesta" element={<TaxConvertion />}></Route>
+        <Route path="/front/profile" element={<Profile />}></Route>
       </Routes>
     </BrowserRouter>
   )
