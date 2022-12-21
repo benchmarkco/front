@@ -54,16 +54,16 @@ function Profile() {
                     </p>
                     <ul>
                         <li> Líder técnico de implementación en arquitecturas cloud (GCP, Bigquery, tableau, Cloud Data flow, Flask).
-                             Data engineer/ Data analyst 
+                             Data engineer/ Data analyst. 
                         </li>
                         <li> Líder técnico de implementación en arquitecturas cloud (GCP, Bigquery, tableau, Cloud Data flow, Flask).
-                             Data engineer/ Data analyst 
+                             Data engineer/ Data analyst. 
                         </li>
                         <li> Líder técnico de implementación en arquitecturas cloud (GCP, Bigquery, tableau, Cloud Data flow, Flask).
-                             Data engineer/ Data analyst 
+                             Data engineer/ Data analyst. 
                         </li>
                         <li> Líder técnico de implementación en arquitecturas cloud (GCP, Bigquery, tableau, Cloud Data flow, Flask).
-                             Data engineer/ Data analyst 
+                             Data engineer/ Data analyst. 
                         </li>
                     </ul>
                     <br></br>

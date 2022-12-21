@@ -20,7 +20,7 @@ function Index() {
               title="BenchSolutions"
               description = "Tenemos el hobby de crear aplicaciones que solucionan problemas cotidianos"
               created_by= "Benchmark"
-              goto_link = "/front/tax"
+              goto_link = "/front/solutions"
         />
         <Card img_link= { ImagePortfolio }
               title="BenchLearning"

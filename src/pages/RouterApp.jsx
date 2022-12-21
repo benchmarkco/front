@@ -6,6 +6,7 @@ import MontecarloTasaCambio from "./MontecarloTasaCambio"
 import PortfoliOptimization from "./PortfoliOptimization"
 import TopContributors from "./TopContributors"
 import Profile from "./Profile";
+import Solutions from "./Solutions";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/front/montecarlo" element={<MontecarloTasaCambio />}></Route>
         <Route path="/front/propuesta" element={<TaxConvertion />}></Route>
         <Route path="/front/profile" element={<Profile />}></Route>
+        <Route path="/front/solutions" element={<Solutions />}></Route>
       </Routes>
     </BrowserRouter>
   )
