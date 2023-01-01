@@ -48,7 +48,7 @@ const Portoflio = () => {
   
 
   const onSubmit = async data => {
-    let url = `http://localhost:5000/${data.ticket}`
+    let url = `http://localhost:8000/${data.ticket}`
     const response = await fetch(url);
     const fetch_data = await response.json();
     

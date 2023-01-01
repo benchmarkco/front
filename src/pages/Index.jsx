@@ -11,11 +11,11 @@ import ImageMonteCarlo from '../assets/img/montecarlo.png'
 function Index() {
   return (
     <>
-    <Navbar company_name = { "Cambios mostrar Dani ®" }/>
+    <Navbar company_name = { "Benchmark ®" }/>
     <Jumbotron company_name = { "Benchmark ®" } 
                large_text = { 'Somos un grupo de personas "talentosas", democratizando el conocimiento en Finanzas, Actuaria y  Ciencia de Datos con el uso de tecnologia Cloud'}
                 />
-    <CardContainer>
+    <CardContainer background = "bg-dark">
         <Card img_link= { ImageTax } 
               title="BenchSolutions"
               description = "Tenemos el hobby de crear aplicaciones que solucionan problemas cotidianos"
