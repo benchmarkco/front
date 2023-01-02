@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import TableContributors from '../components/TopContributors/TableContributors'
 import ImageTax from '../assets/img/tax.png'
 
+ // "https://media-exp1.licdn.com/dms/image/C4D03AQHe2SopuFt7cA/profile-displayphoto-shrink_400_400/0/1526669296827?e=1672876800&v=beta&t=wN5bOvQjwkq3r_tA0acvXyggDT8v1yWjzCYNQhaCgwI"
 function Profile() {
   return (
     <>
@@ -15,7 +16,7 @@ function Profile() {
                     <div className='d-flex align-items-center'>
 
                     <img  className="img-thumbnail rounded-circle img-fluid my-3 align-items-center" 
-                        src="https://media-exp1.licdn.com/dms/image/C4D03AQHe2SopuFt7cA/profile-displayphoto-shrink_400_400/0/1526669296827?e=1672876800&v=beta&t=wN5bOvQjwkq3r_tA0acvXyggDT8v1yWjzCYNQhaCgwI"
+                        src=""
                         alt="" 
                         style={{ width: "10rem", height: "10rem" }}
                         />

@@ -46,9 +46,9 @@ const Portoflio = () => {
   const [graphLabel, setGraphLabel] = useState([]);
   const [graphData, setGraphData] = useState([]);
   
-
+// `http://localhost:8000/${data.ticket}`
   const onSubmit = async data => {
-    let url = `http://localhost:8000/${data.ticket}`
+    let url = ""
     const response = await fetch(url);
     const fetch_data = await response.json();
     
