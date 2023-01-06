@@ -14,13 +14,13 @@ const TableContributors = () => {
             <tbody>
             <Contributor
                 redirect_to='/front/profile'
-                img_link="https://media-exp1.licdn.com/dms/image/C4D03AQHe2SopuFt7cA/profile-displayphoto-shrink_400_400/0/1526669296827?e=1672876800&v=beta&t=wN5bOvQjwkq3r_tA0acvXyggDT8v1yWjzCYNQhaCgwI" 
+                img_link="https://media.licdn.com/dms/image/C4D03AQHe2SopuFt7cA/profile-displayphoto-shrink_400_400/0/1526669296827?e=1678320000&v=beta&t=cJANuJ19ODfTv_8tycZVBLLWP16PVb5BjH6MWyVXgu4" 
                 name="Andres Ferro"
                 linkedin_link= "https://linkedin.com/andresferro6"
             />
             <Contributor 
                 redirect_to='/'
-                img_link="https://media-exp1.licdn.com/dms/image/C5603AQE6DeYbj6bhvQ/profile-displayphoto-shrink_400_400/0/1620859243757?e=1672876800&v=beta&t=1zBrY0J_mBQ6LzM2BY0BrrSph_n8A4RnkImY0V1n8z0"
+                img_link="https://media.licdn.com/dms/image/C5603AQE6DeYbj6bhvQ/profile-displayphoto-shrink_400_400/0/1620859243757?e=1678320000&v=beta&t=VhntovjVmoPciZTsxoQYrT1j1L-atC3P8fNPKNvYaNA"
                 name="Santiago Tamayo"
                 linkedin_link= "https://www.linkedin.com/in/santiago-tamayo-torres-480028114/"
             />
