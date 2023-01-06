@@ -12,7 +12,7 @@ function Index() {
   return (
     <>
     <Navbar company_name = { "Benchmark ®" }/>
-    <Jumbotron company_name = { "Benchmark ®" } 
+    <Jumbotron company_name = { "Prueba Domain ®" } 
                large_text = { 'Somos un grupo de personas "talentosas", democratizando el conocimiento en Finanzas, Actuaria y  Ciencia de Datos con el uso de tecnologia Cloud'}
                 />
     <CardContainer background = "bg-dark">
