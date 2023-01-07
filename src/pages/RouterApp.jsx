@@ -7,6 +7,7 @@ import PortfoliOptimization from "./PortfoliOptimization"
 import TopContributors from "./TopContributors"
 import Profile from "./Profile";
 import Solutions from "./Solutions";
+import Eviews from "./Eviews";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/front/propuesta" element={<TaxConvertion />}></Route>
         <Route path="/front/profile" element={<Profile />}></Route>
         <Route path="/front/solutions" element={<Solutions />}></Route>
+        <Route path="/front/eviews" element={<Eviews />}></Route>
       </Routes>
     </BrowserRouter>
   )
