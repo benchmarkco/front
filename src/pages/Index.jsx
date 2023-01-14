@@ -12,7 +12,7 @@ function Index() {
   return (
     <>
     <Navbar company_name = { "Benchmark ®" }/>
-    <Jumbotron company_name = { "Prueba Domain ®" } 
+    <Jumbotron company_name = { "Benchmark ®" } 
                large_text = { 'Somos un grupo de personas "talentosas", democratizando el conocimiento en Finanzas, Actuaria y  Ciencia de Datos con el uso de tecnologia Cloud'}
                 />
     <CardContainer background = "bg-dark">
@@ -26,12 +26,18 @@ function Index() {
               title="BenchLearning"
               description = "¿Te interesa? Aqui te dejamos algunos recursos recomendados para que te capacites"
               created_by= "Benchmark"
-              goto_link = "/front/portfolio"
+              goto_link = "/front/learning"
         />
         <Card img_link= {ImageMonteCarlo}
               title="BenchEmpresarios"
               description = "Conoce un poco más sobre el corazón de las empresas y esas historias que hay detras de ellas"
               created_by= "Benchmark"
+              goto_link = "/front/montecarlo"
+        />
+      <Card img_link= {ImageMonteCarlo}
+              title="Daniel Holguin"
+              description = "Zona de combate"
+              created_by= "Zona"
               goto_link = "/front/montecarlo"
         />
     </CardContainer>

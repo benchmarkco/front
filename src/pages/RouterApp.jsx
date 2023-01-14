@@ -8,7 +8,7 @@ import TopContributors from "./TopContributors"
 import Profile from "./Profile";
 import Solutions from "./Solutions";
 import Eviews from "./Eviews";
-
+import BenchLearning from "./BenchLearning";
 
 const App = () => {
   return (
@@ -24,6 +24,7 @@ const App = () => {
         <Route path="/front/profile" element={<Profile />}></Route>
         <Route path="/front/solutions" element={<Solutions />}></Route>
         <Route path="/front/eviews" element={<Eviews />}></Route>
+        <Route path="/front/learning" element={< BenchLearning />}></Route>
       </Routes>
     </BrowserRouter>
   )
